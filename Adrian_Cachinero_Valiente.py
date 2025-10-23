@@ -22,6 +22,10 @@ while opcion < 6:
         case 1:
             print(f"{catalogo}")
             destino = (str(input("Confirma para que destino desea ir (o 'salir' para terminar):")))  
+        case 2: 
+        case 3:
+        case 4:
+        case 5: 
         case 6:
             print("Fin de catalogo")
         case _:
@@ -36,5 +40,6 @@ while opcion < 6:
     print("opcion 4: Ver reservas")
     print("opcion 5: Resumen de coste y días")
     print("opcion 6: Salir")
+
 
     opcion = int(input("Que opcion desea (o 'salir' para terminar): "))
